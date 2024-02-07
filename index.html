@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio_1</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png">
+    <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">  
+</head>
+<body>
+    <div class="form-control">
+        <div class="mb-2">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <label class="form-label">Nota del primer parcial:</label>
+                </div>
+                <div class="col-auto">
+                    <input type="number" id="parcial1" class="form-control"/>
+                </div>
+            </div>
+        </div>
+        <div class="mb-2">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <label class="form-label">Nota del segundo parcial:</label>
+                </div>
+                <div class="col-auto">
+                    <input type="number" id="parcial2" class="form-control"/>
+                </div>
+            </div>
+        </div> 
+        <div class="mb-2">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <label class="form-label">Nota del tercer parcial:</label>
+                </div>
+                <div class="col-auto">
+                    <input type="number" id="parcial3" class="form-control"/>
+                </div>
+            </div>
+        </div>      
+        <div class="mb-2">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <label class="form-label">Su nota es de:</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="Resultado" class="form-control" readonly/>
+                </div>
+            </div>
+        </div>     
+        <button type="button" class="btn btn-primary" onclick="Parcial()">Nota</button>
+        <button type="button" class="btn btn-danger" onclick="limpiar()">Limpiar</button>
+    </div>
+    <div class="row-12">
+    </div>
+
+
+    <script src="js/index.js" ></script>
+    <script src="/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
+</body>
+</html>
